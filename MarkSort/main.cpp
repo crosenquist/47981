@@ -92,9 +92,9 @@ void copy(int a[], int b[], int n){
 void sortPos(int a[], int n, int pos){
     if(pos>n-1)return;
     for(int i=pos+1;i<n;i++){
-        //if(a[pos]>a[i])swap1(a[pos],a[i]);
+        if(a[pos]>a[i])swap1(a[pos],a[i]);
         //if(a[pos]>a[i])swap2(a[pos],a[i]);
-        if(a[pos]>a[i])swap3(a,pos,i);
+        //if(a[pos]>a[i])swap3(a,pos,i);
     }
 }
 
